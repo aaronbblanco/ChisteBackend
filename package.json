@@ -1,0 +1,24 @@
+{
+  "name": "chistesangularbackend",
+  "version": "1.0.0",
+  "description": "API backend para la aplicacion de chistes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chistes",
+    "api"
+  ],
+  "author": "Angel Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
